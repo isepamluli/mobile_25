@@ -1,3 +1,40 @@
-<ion-app>
-  <ion-router-outlet></ion-router-outlet>
-</ion-app>
+
+  <ion-app>
+    <ion-header>
+      <!-- Exemplo 1: Toolbar com botões (como nos slides) -->
+      <ion-toolbar color="secondary">
+        <ion-buttons slot="start">
+          <ion-button>
+            <ion-icon name="arrow-back"></ion-icon>
+          </ion-button>
+        </ion-buttons>
+        <ion-title>Alunos Mobile</ion-title>
+        <ion-buttons slot="end">
+          <ion-button>
+            <ion-icon name="search"></ion-icon>
+          </ion-button>
+        </ion-buttons>
+      </ion-toolbar>
+    </ion-header>
+
+    <ion-content class="custom-content">
+      <!-- ========== SEÇÃO LISTAS ========== -->
+    
+      <!-- Lista Simples -->
+      <ion-list>
+        <ion-item>
+          <ion-label>Arthur</ion-label>
+        </ion-item>
+        <ion-item>
+          <ion-label>Estéffani</ion-label>
+        </ion-item>
+        <ion-item>
+          <ion-label>Luiza</ion-label>
+        </ion-item>
+        <ion-item>
+          <ion-label>Lais</ion-label>
+        </ion-item>
+      </ion-list>
+      
+    </ion-content>
+  </ion-app>
